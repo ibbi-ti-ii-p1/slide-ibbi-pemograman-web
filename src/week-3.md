@@ -402,3 +402,164 @@ Many web sites contain HTML code like: `<div id="nav">` `<div class="header">` `
 
 In HTML there are some semantic elements that can be used to define different parts of a web page:  
 `<article>`,`<aside>`,`<details>`,`<figcaption>`,`<figure>`,`<footer>`,`<header>`,`<main>`,`<mark>`,`<nav>`,`<section>`,`<summary>`,`<time>`
+
+---
+
+# HTML Forms
+
+![bg right:33% contain](./images/pertemuan2-2.png)
+
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+---
+
+# HTML Form Attributes
+
+- The `action` attribute defines the action to be performed when the form is submitted.
+- The `method` attribute specifies the HTTP method to be used when submitting the form data. The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post").
+
+---
+
+# HTML Form Example
+
+```html
+<form action="/action_page.php" method="GET">
+  <label for="fname">First name:</label><br />
+  <input type="text" id="fname" name="fname" value="John" /><br />
+  <label for="lname">Last name:</label><br />
+  <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+  <input type="submit" value="Submit" />
+</form>
+```
+
+---
+
+# HTML Form Elements
+
+`<input>`, `<label>`, `<select>`, `<textarea>`, `<button>`, `<fieldset>`, `<legend>`, `<datalist>`, `<output>`, `<option>`, `<optgroup>`,
+
+---
+
+# HTML Input Types
+
+`<input type="button">`, `<input type="checkbox">`, `<input type="color">`, `<input type="date">`, `<input type="datetime-local">`, `<input type="email">`, `<input type="file">`, `<input type="hidden">`, `<input type="image">`, `<input type="month">`, `<input type="number">`, `<input type="password">`, `<input type="radio">`, `<input type="range">`, `<input type="reset">`, `<input type="search">`, `<input type="submit">`, `<input type="tel">`, `<input type="text">`, `<input type="time">`, `<input type="url">`, `<input type="week">`
+
+---
+
+# Assignments
+
+1. Buatlah halaman web sederhana yang berisi profil diri Anda menggunakan tag-tag HTML dasar seperti heading, paragraph, list, link, dan lainnya.
+2. Buatlah halaman web yang berisi daftar menu makanan dari sebuah restoran. Gunakan tag-tag seperti heading, list, gambar, dan lainnya.
+3. Buatlah halaman web yang menampilkan jadwal kuliah untuk satu mata kuliah. Gunakan tabel HTML untuk menampilkan jadwal tersebut.
+
+---
+
+# Quizzes
+
+<!-- _class: lead -->
+
+---
+
+# Quiz #1
+
+Apa yang harus dituliskan pada baris pertama suatu dokumen HTML?
+a. `<html>`
+b. `<!DOCTYPE html>`
+c. `<head>`
+d. `<title>`
+
+---
+
+# Quiz #2
+
+Di manakah informasi meta tentang halaman HTML dituliskan?
+a. `<body> `
+b. `<header> `
+c. `<head> `
+d. `<title>`
+
+---
+
+# Quiz #3
+
+Elemen HTML apa yang digunakan untuk membuat judul halaman web?
+a. `<heading> `
+b. `<title> `
+c. `<h1> `
+d. `<head>`
+
+---
+
+# Quiz #4
+
+Bagaimana cara membuat paragraf text dalam HTML?
+a. `<p> `
+b. `<prg> `
+c. `<paragraph> `
+d. `<txt>`
+
+---
+
+# Quiz #5
+
+Apa atribut yang digunakan pada elemen `<a>` untuk membuat tautan?
+a. href
+b. link
+c. url
+d. source
+
+---
+
+# Quiz #6
+
+Elemen HTML apa yang digunakan untuk menampilkan gambar?
+a. `<picture> `
+b. `<image> `
+c. `<img> `
+d. `<photo>`
+
+---
+
+# Quiz #7
+
+Apa nama elemen HTML untuk membuat baris pada tabel?
+a. `<tr> `
+b. `<th> `
+c. `<td> `
+d. `<row>`
+
+---
+
+# Quiz #8
+
+Elemen HTML apa yang digunakan untuk membuat form input?
+a. `<input> `
+b. `<form> `
+c. `<textarea> `
+d. `<field>`
+
+---
+
+# Quiz #9
+
+Apa atribut yang digunakan pada elemen `<input>` untuk membuat kotak input text?
+a. text
+b. inputbox
+c. textfield
+d. textarea
+
+---
+
+# Quiz #10
+
+Di mana konten halaman HTML yang akan ditampilkan ke pengguna dituliskan?
+a. `<header> `
+b. `<body> `
+c. `<footer> `
+d. `<content>`
+
+---
+
+# END
+
+<!-- _class: lead -->
