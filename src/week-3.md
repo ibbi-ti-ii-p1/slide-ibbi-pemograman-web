@@ -2,7 +2,7 @@
 marp: true
 theme: gaia
 paginate: true
-footer: https://github.com/ibbi-ti-ii-p1/slide-pemograman-web
+footer: https://github.com/ibbi-ti-ii-p1/slide-ibbi-pemograman-web
 ---
 
 # HTML
