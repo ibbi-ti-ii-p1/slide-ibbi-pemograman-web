@@ -1,0 +1,14 @@
+{
+  "name": "pemograman-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  },
+  "scripts": {
+    "start": "marp --server .",
+    "cpi": "mkdir dist && cp -r src/images dist",
+    "build": "rm -rf dist && npm run cpi && marp -I src -o dist"
+  }
+}
