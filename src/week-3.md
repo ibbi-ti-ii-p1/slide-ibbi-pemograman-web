@@ -216,18 +216,6 @@ HTML contains several elements for defining text with a special meaning.
 
 ---
 
-# HTML Links - Use an Image as a Link
-
-To use an image as a link, just put the <img> tag inside the <a> tag:
-
-```html
-<a href="default.asp">
-  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;" />
-</a>
-```
-
----
-
 # HTML Images
 
 Images can improve the design and the appearance of a web page.
@@ -239,9 +227,9 @@ Images can improve the design and the appearance of a web page.
 
 ---
 
-# Nested HTML Elements
+# HTML Links - Use an Image as a Link
 
-HTML elements can be nested (this means that elements can contain other elements).
+To use an image as a link, just put the <img> tag inside the <a> tag:
 
 ```html
 <a href="default.asp">
