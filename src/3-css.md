@@ -196,9 +196,9 @@ p {
 
 There are three ways of inserting a style sheet:
 
-- External CSS
-- Internal CSS
-- Inline CSS
+1. External CSS
+2. Internal CSS
+3. Inline CSS
 
 ---
 
@@ -606,3 +606,43 @@ div {
   width: 50%;
 }
 ```
+
+---
+
+# CSS Borders
+
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+- border-style
+- border-width
+- border-color
+- border-radius
+
+---
+
+# CSS Borders Shorthand
+
+The border property is a shorthand property for the following individual border properties:
+
+- border-width
+- border-style (required)
+- border-color
+
+```css
+p {
+  border: 5px solid red;
+}
+```
+
+---
+
+# CSS Text
+
+CSS has a lot of properties for formatting text.
+
+- color
+- text-align
+- text-decoration
+- text-transform
+- text-spacing
+- text-shadow
