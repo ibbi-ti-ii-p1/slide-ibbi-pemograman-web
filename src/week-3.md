@@ -7,6 +7,8 @@ footer: https://github.com/ibbi-ti-ii-p1/slide-ibbi-pemograman-web
 
 # HTML
 
+Hyper Text Markup Language
+
 <!--
 _class: lead
 _paginate: skip
