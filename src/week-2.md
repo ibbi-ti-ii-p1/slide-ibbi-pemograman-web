@@ -3,6 +3,10 @@ marp: true
 theme: gaia
 paginate: true
 footer: https://github.com/ibbi-ti-ii-p1/slide-pemograman-web
+style: |
+  section::after {
+    content: 'Page ' attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+  }
 ---
 
 # Pengenalan Pemrograman Web
