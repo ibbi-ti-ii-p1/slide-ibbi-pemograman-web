@@ -82,6 +82,116 @@ p {
 
 ---
 
+# How to Insert CSS
+
+There are three ways of inserting a style sheet:
+
+1. External CSS
+2. Internal CSS
+3. Inline CSS
+
+---
+
+# Inline CSS
+
+An inline style may be used to apply a unique style for a single element.
+
+```html
+<h1 style="color:blue;text-align:center;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+```
+
+---
+
+# Internal CSS
+
+An internal style sheet may be used if one single HTML page has a unique style.
+
+```html
+...
+<head>
+  <style>
+    body {
+      background-color: linen;
+    }
+  </style>
+</head>
+...
+```
+
+---
+
+# External CSS
+
+<style scoped>
+  p, pre {
+    font-size: 0.8rem;
+  }
+</style>
+
+With an external style sheet, you can change the look of an entire website by changing just one file!
+
+```html
+...
+<head>
+  <link rel="stylesheet" href="mystyle.css" />
+</head>
+...
+```
+
+_mystyle.css_
+
+```css
+body {
+  background-color: lightblue;
+}
+```
+
+---
+
+# Multiple Style Sheets
+
+<style scoped>
+  p, pre { 
+    font-size: 0.8rem;
+  }
+</style>
+
+If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used.
+
+_mystyle.css_
+
+```css
+h1 {
+  color: navy;
+}
+```
+
+```html
+<head>
+  <link rel="stylesheet" type="text/css" href="mystyle.css" />
+  <style>
+    h1 {
+      color: orange;
+    }
+  </style>
+</head>
+```
+
+---
+
+# Cascading Order
+
+All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
+
+- Inline style (inside an HTML element)
+- External and internal style sheets (in the head section)
+- Browser default
+
+So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
+
+---
+
 # CSS Selectors
 
 CSS selectors are used to "find" (or select) the HTML elements you want to style.
@@ -192,116 +302,6 @@ p {
 
 ---
 
-# How to Insert CSS
-
-There are three ways of inserting a style sheet:
-
-1. External CSS
-2. Internal CSS
-3. Inline CSS
-
----
-
-# External CSS
-
-<style scoped>
-  p, pre {
-    font-size: 0.8rem;
-  }
-</style>
-
-With an external style sheet, you can change the look of an entire website by changing just one file!
-
-```html
-...
-<head>
-  <link rel="stylesheet" href="mystyle.css" />
-</head>
-...
-```
-
-_mystyle.css_
-
-```css
-body {
-  background-color: lightblue;
-}
-```
-
----
-
-# Internal CSS
-
-An internal style sheet may be used if one single HTML page has a unique style.
-
-```html
-...
-<head>
-  <style>
-    body {
-      background-color: linen;
-    }
-  </style>
-</head>
-...
-```
-
----
-
-# Inline CSS
-
-An inline style may be used to apply a unique style for a single element.
-
-```html
-<h1 style="color:blue;text-align:center;">This is a heading</h1>
-<p style="color:red;">This is a paragraph.</p>
-```
-
----
-
-# Multiple Style Sheets
-
-<style scoped>
-  p, pre { 
-    font-size: 0.8rem;
-  }
-</style>
-
-If some properties have been defined for the same selector (element) in different style sheets, the value from the last read style sheet will be used.
-
-_mystyle.css_
-
-```css
-h1 {
-  color: navy;
-}
-```
-
-```html
-<head>
-  <link rel="stylesheet" type="text/css" href="mystyle.css" />
-  <style>
-    h1 {
-      color: orange;
-    }
-  </style>
-</head>
-```
-
----
-
-# Cascading Order
-
-All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where number one has the highest priority:
-
-- Inline style (inside an HTML element)
-- External and internal style sheets (in the head section)
-- Browser default
-
-So, an inline style has the highest priority, and will override external and internal styles and browser defaults.
-
----
-
 # CSS Units
 
 - CSS has several different units for expressing a length.
@@ -321,6 +321,12 @@ p {
 ---
 
 # CSS Units - Absolute Length
+
+<style scoped>
+table {
+  width: 100%;
+}
+</style>
 
 The absolute length units are fixed and a length expressed in any of these will appear as exactly that size.
 
@@ -388,7 +394,7 @@ div > p {
 
 The adjacent sibling selector is used to select an element that is directly after another specific element.
 
-The following example selects the first <p> element that are placed immediately after <div> elements:
+The following example selects the first `<p>` element that are placed immediately after `<div> ` elements:
 
 ```css
 div + p {
@@ -413,6 +419,9 @@ div ~ p {
 # All CSS Combinator Selectors
 
 <style scoped>
+  table {
+    width: 100%;
+  }
   td {
     font-size: 0.85rem;
   }
@@ -475,50 +484,6 @@ a:hover {
 /* selected link */
 a:active {
   color: #0000ff;
-}
-```
-
----
-
-# CSS Colors
-
-Colors are specified using predefined color names, or RGB, HEX, HSL values.
-
-```html
-<h1 style="background-color:Tomato;">....</h1>
-<h1 style="background-color:rgb(255, 99, 71);">...</h1>
-<h1 style="background-color:#ff6347;">...</h1>
-<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
-```
-
----
-
-# CSS Backgrounds
-
-The CSS background properties are used to add background effects for elements.
-
-- background-color
-- background-image
-- background-repeat
-- background-attachment
-- background-position
-
----
-
-# CSS Backgrounds Shorthand
-
-```css
-body {
-  background-color: #ffffff;
-  background-image: url("img_tree.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-}
-```
-
-```css
-body {
-  background: #ffffff url("img_tree.png") no-repeat right top;
 }
 ```
 
@@ -636,6 +601,50 @@ p {
 
 ---
 
+# CSS Colors
+
+Colors are specified using predefined color names, or RGB, HEX, HSL values.
+
+```html
+<h1 style="background-color:Tomato;">....</h1>
+<h1 style="background-color:rgb(255, 99, 71);">...</h1>
+<h1 style="background-color:#ff6347;">...</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
+```
+
+---
+
+# CSS Backgrounds
+
+The CSS background properties are used to add background effects for elements.
+
+- background-color
+- background-image
+- background-repeat
+- background-attachment
+- background-position
+
+---
+
+# CSS Backgrounds Shorthand
+
+```css
+body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+```
+
+```css
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+```
+
+---
+
 # CSS Text
 
 CSS has a lot of properties for formatting text.
@@ -646,3 +655,164 @@ CSS has a lot of properties for formatting text.
 - text-transform
 - text-spacing
 - text-shadow
+
+---
+
+# CSS Fonts
+
+Choosing the right font for your website is important!
+
+- font-style
+- font-variant
+- font-weight
+- font-size/line-height
+- font-family
+
+---
+
+# CSS Font Families
+
+In CSS there are five generic font families:
+
+- Serif
+- Sans-serif
+- Monospace
+- Cursive
+- Fantasy
+
+> https://www.w3schools.com/css/css_font.asp
+
+---
+
+# CSS Display
+
+<style scoped>
+  table {
+    width: 100%;
+  }
+
+  td {
+    font-size: 0.9rem;
+  }
+</style>
+
+The display property is used to specify how an element is shown on a web page.
+
+| Value      | Description                                                                         |
+| ---------- | ----------------------------------------------------------------------------------- |
+| inline     | Displays an element as an inline element                                            |
+| block      | Displays an element as a block element                                              |
+| none       | The element is completely removed                                                   |
+| visibility | hides an element. However, the element will still take up the same space as before. |
+
+---
+
+# CSS Attribute Selectors
+
+The attribute selector is used to select elements with a specified attribute.
+
+```css
+a[target] {
+  background-color: yellow;
+}
+```
+
+---
+
+# CSS [attribute="value"] Selector
+
+The [attribute="value"] selector is used to select elements with a specified attribute and value.
+
+The following example selects all <a> elements with a target="\_blank" attribute:
+
+```css
+a[target="_blank"] {
+  background-color: yellow;
+}
+```
+
+---
+
+# CSS [attribute~="value"] Selector
+
+The [attribute~="value"] selector is used to select elements with an attribute value containing a specified word.
+
+The following example selects all elements with a title attribute that contains a space-separated list of words, one of which is "flower":
+
+```css
+[title~="flower"] {
+  border: 5px solid yellow;
+}
+```
+
+---
+
+# CSS [attribute|="value"] Selector
+
+The [attribute|="value"] selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-).
+
+Note: The value has to be a whole word, either alone, like class="top", or followed by a hyphen( - ), like class="top-text".
+
+```css
+[class|="top"] {
+  background: yellow;
+}
+```
+
+---
+
+# CSS [attribute^="value"] Selector
+
+The [attribute^="value"] selector is used to select elements with the specified attribute, whose value starts with the specified value.
+
+The following example selects all elements with a class attribute value that starts with "top":
+
+Note: The value does not have to be a whole word!
+
+```css
+[class^="top"] {
+  background: yellow;
+}
+```
+
+---
+
+# CSS [attribute$="value"] Selector
+
+The [attribute$="value"] selector is used to select elements whose attribute value ends with a specified value.
+
+The following example selects all elements with a class attribute value that ends with "test":
+
+Note: The value does not have to be a whole word!
+
+```css
+[class$="test"] {
+  background: yellow;
+}
+```
+
+---
+
+# CSS [attribute*="value"] Selector
+
+The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.
+
+The following example selects all elements with a class attribute value that contains "te":
+
+Note: The value does not have to be a whole word!
+
+```css
+[class*="te"] {
+  background: yellow;
+}
+```
+
+---
+
+# Assignments
+
+1. Buatlah sebuah navigasi menu horizontal atau vertikal menggunakan CSS. Menu tersebut harus memiliki efek hover atau transisi saat kursor diarahkan ke item menu.
+
+2. Buatlah sebuah galeri foto sederhana dengan menggunakan CSS. Setiap foto harus memiliki caption dan efek hover saat kursor diarahkan ke foto tersebut.
+
+3. Buatlah sebuah formulir pendaftaran dengan menggunakan CSS untuk mengatur tata letak, warna, dan gaya elemen-elemen formulir seperti input field, tombol submit, dan label.
