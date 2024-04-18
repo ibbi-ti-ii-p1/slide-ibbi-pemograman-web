@@ -64,6 +64,8 @@ Prinsip dan teknik layout halaman web, grid dan flexbox layout, media queries un
 
 Penilaian akan melibatkan kemampuan mahasiswa dalam menjelaskan prinsip dan teknik layout halaman web, menerapkan grid dan flexbox layout dalam desain halaman web, serta menggunakan media queries untuk membuat halaman web responsif.
 
+[Slide](https://ibbi-ti-ii-p1.github.io/slide-ibbi-pemograman-web/4-layout.html)
+
 ## 5. Form HTML
 
 **Kemampuan akhir yang diharapkan**
