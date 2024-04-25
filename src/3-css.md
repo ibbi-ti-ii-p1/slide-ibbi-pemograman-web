@@ -58,7 +58,7 @@ p, ul > li {
 
 A CSS rule consists of a selector and a declaration block.
 
-![](./images/pertemuan4-1.gif)
+![](./images/css-1.gif)
 
 - The selector points to the HTML element you want to style.
 - The declaration block contains one or more declarations separated by semicolons.
@@ -493,7 +493,7 @@ a:active {
 
 The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding, borders and margins.
 
-![bg right contain](./images/pertemuan4-2.png)
+![bg right contain](./images/css-2.png)
 
 ---
 

@@ -50,6 +50,8 @@ Penilaian akan mencakup pemahaman mahasiswa tentang konsep CSS, kemampuan mereka
 
 [Slide](https://ibbi-ti-ii-p1.github.io/slide-ibbi-pemograman-web/3-css.html)
 
+[Quiz](https://quizizz.com/admin/quiz/66214718bff5a6589925b453?source=quiz_share)
+
 ## 4. Layout Halaman Web
 
 **Kemampuan akhir yang diharapkan**
@@ -79,6 +81,8 @@ Jenis input form dalam HTML (text, radio, checkbox, dropdown, dll.), validasi fo
 **Kriteria penilaian dan indikator**
 
 Penilaian akan mencakup kemampuan mahasiswa dalam mendesain form HTML yang berfungsi dengan baik, menerapkan validasi form menggunakan atribut HTML atau JavaScript, serta kemampuan mereka dalam mengirim dan memproses data form.
+
+[Slide](https://ibbi-ti-ii-p1.github.io/slide-ibbi-pemograman-web/5-form.html)
 
 ## 6. JavaScript Dasar
 

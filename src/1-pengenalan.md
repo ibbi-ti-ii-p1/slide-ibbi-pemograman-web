@@ -208,4 +208,4 @@ function submitForm() {
   }
 </style>
 
-![](./images/pertemuan1-1.png)
+![](./images/pengenalan.png)

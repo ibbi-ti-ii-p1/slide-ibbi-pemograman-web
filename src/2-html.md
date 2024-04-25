@@ -402,7 +402,7 @@ The `<div>` element is often used as a container for other HTML elements.
     }
 </style>
 
-![bg right:33% contain](./images/pertemuan2-1.png)
+![bg right:33% contain](./images/html-1.png)
 
 Many web sites contain HTML code like: `<div id="nav">` `<div class="header">` `<div id="footer">` to indicate navigation, header, and footer.
 
@@ -413,7 +413,7 @@ In HTML there are some semantic elements that can be used to define different pa
 
 # HTML Forms
 
-![bg right:33% contain](./images/pertemuan2-2.png)
+![bg right:33% contain](./images/html-2.png)
 
 An HTML form is used to collect user input. The user input is most often sent to a server for processing.
 
