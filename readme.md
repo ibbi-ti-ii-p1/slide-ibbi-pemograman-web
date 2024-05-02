@@ -68,6 +68,8 @@ Penilaian akan melibatkan kemampuan mahasiswa dalam menjelaskan prinsip dan tekn
 
 [Slide](https://ibbi-ti-ii-p1.github.io/slide-ibbi-pemograman-web/4-layout.html)
 
+[Quiz](https://quizizz.com/admin/quiz/662a766f3e1fa48181c8c2d5?source=quiz_share)
+
 ## 5. Form HTML
 
 **Kemampuan akhir yang diharapkan**
@@ -97,6 +99,8 @@ Variabel, tipe data, operator, percabangan, perulangan, fungsi dalam JavaScript,
 **Kriteria penilaian dan indikator**
 
 Penilaian akan mencakup pemahaman mahasiswa tentang konsep dasar JavaScript, kemampuan mereka dalam mengimplementasikan variabel, tipe data, operator, percabangan, perulangan, dan fungsi dalam kode JavaScript.
+
+[Slide](https://ibbi-ti-ii-p1.github.io/slide-ibbi-pemograman-web/6-javascript.html)
 
 ## 7. Manipulasi DOM dengan JavaScript
 
