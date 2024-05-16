@@ -116,6 +116,8 @@ Konsep DOM, metode untuk mengakses dan memanipulasi elemen DOM, event handling d
 
 Penilaian akan mencakup pemahaman mahasiswa tentang konsep DOM, kemampuan mereka dalam mengakses dan memanipulasi elemen DOM secara dinamis, serta kemampuan mereka dalam menangani event dengan JavaScript. 10%
 
+[Slide](https://ibbi-ti-ii-p1.github.io/slide-ibbi-pemograman-web/7-dom.html)
+
 ## 8. AJAX dengan JavaScript
 
 **Kemampuan akhir yang diharapkan**
