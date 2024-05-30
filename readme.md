@@ -132,6 +132,8 @@ Konsep AJAX, penggunaan XMLHttpRequest dan Fetch API, contoh-contoh implementasi
 
 Penilaian akan mencakup pemahaman mahasiswa tentang konsep AJAX, kemampuan mereka dalam mengimplementasikan AJAX untuk memuat data secara dinamis, serta kemampuan mereka dalam menggunakan XMLHttpRequest dan Fetch API.
 
+[Slide](https://ibbi-ti-ii-p1.github.io/slide-ibbi-pemograman-web/8-ajax.html)
+
 ## 9. Pengenalan Backend Web
 
 **Kemampuan akhir yang diharapkan**
@@ -145,6 +147,8 @@ Peran backend dalam aplikasi web, bahasa pemrograman backend populer (misalnya, 
 **Kriteria penilaian dan indikator**
 
 Penilaian akan melibatkan kemampuan mahasiswa dalam menjelaskan peran backend dalam aplikasi web, mengidentifikasi bahasa pemrograman backend populer, dan memberikan contoh-contoh framework backend yang umum digunakan.
+
+[Slide](https://ibbi-ti-ii-p1.github.io/slide-ibbi-pemograman-web/9-backend.html)
 
 ## 10. Node.js Dasar
 
