@@ -176,6 +176,8 @@ Konsep database MySQL, koneksi Node.js dan MySQL, operasi CRUD data (Create, Rea
 
 **Kriteria penilaian dan indikator**
 
+[Slide](https://ibbi-ti-ii-p1.github.io/slide-ibbi-pemograman-web/10-database.html)
+
 Penilaian akan mencakup pemahaman mahasiswa tentang konsep database MySQL, kemampuan mereka dalam melakukan koneksi antara Node.js dan MySQL, serta kemampuan mereka dalam mengimplementasikan operasi CRUD data menggunakan MySQL dan Node.js.
 
 ## 12. Session dan Cookie
